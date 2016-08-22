@@ -1,0 +1,53 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+/* Form Content */
+#GovDeliveryPopupContainer1 {background: #fff url("/explore/govdelivery/images/lightbox-bg.png") repeat-x 0 bottom;}
+#GovDeliveryPopupContainer1 h1 {display:block; height:86px; border-top: solid 6px #397eb9; margin:0; text-indent:-9999px; background:#183962 url("/explore/govdelivery/images/lightbox-title-2.png") no-repeat 36px 16px;}
+#GovDeliveryPopupContainer1 p {font-family:Arial, Helvetica, Sans-Serif; text-align:center; font-size:18px; line-height:22px; padding:0 55px; margin:17px 0 6px;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySignupBlock {padding:0 20px; display:inline-block; width:450px; margin-left:98px;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySignupBlock label {display:block; clear:both; float:left; color:#333; width:130px; height:34px; font-size:16px; font-family:Arial, Helvetica, Sans-Serif; font-weight:bold; padding: 9px 0 0 17px;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySignupBlock .ValidateErrorText {color:Red;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySignupBlock input[type=text] {width: 228px; height: 34px; background: url("/explore/govdelivery/images/bg-input-email_lightbox.png") no-repeat scroll left top transparent;border: 0px none;padding: 0px 5px;font-size: 16px;}
+#GovDeliveryPopupContainer1 #popupGovDeliveryContactBlock {margin: 10px 0 21px;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySubmitButton { background:url("/explore/govdelivery/images/bg-button-submit_lightbox.png") no-repeat scroll 0 0 transparent; border:none; color:#fff; cursor:pointer; display:inline; font-family: Arial, Helvetica, Sans-Serif; font-weight:bold; height:52px; letter-spacing: 0.05em; margin: 0 0 0 101px; text-shadow: 0 -1px #266684; text-transform: uppercase; width:177px; font-size:26px;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySubmitButton:hover {background-position: 0 -52px; text-shadow: 0 -1px #6f161a;}
+#GovDeliveryPopupContainer1 #popupGovDeliverySubmitButton:active {background-position: 0 -52px; text-shadow: 0 -1px #6f161a;}
+#GovDeliveryPopupContainer1 #popupGovDeliveryFooterLinks {list-style:none; margin:0 0 0 142px; padding:0;}
+#GovDeliveryPopupContainer1 #popupGovDeliveryFooterLinks li {float:left; margin:10px 12px;}
+#GovDeliveryPopupContainer1 #popupGovDeliveryFooterLinks li a {font-size:13px; font-weight:bold; text-decoration:none; color:#0B6CB2; font-family:Arial, Helvetica, Sans-Serif;}
+
+#GovDeliveryThankYou {padding:20px 40px; text-align:center;}
+#GovDeliveryThankYou h1 {display:block; height:180px; margin:0; text-indent:-9999px; background:transparent url("/explore/govdelivery/images/lightbox-title-thankyou.png") no-repeat 183px 98px;}
+#GovDeliveryThankYou p {font-family:Arial, Helvetica, Sans-Serif; font-size:26px; line-height:28px; padding:0 55px; margin:0;}
+#GovDeliveryThankYou a#GovDeliveryThankYouExploreLink {background: url("/explore/govdelivery/images/btn-grad.png") repeat-x 0 0 #0B6CB2; border: 1px solid #1872A0; border-radius: 3px 3px 3px 3px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); color:#fff; cursor:pointer; display:inline-block; font-family: arial,sans-serif; font-size: 16px; font-weight:bold; padding: 8px 12px; text-decoration:none; margin:74px 0 0 0;}
+#GovDeliveryThankYou a#GovDeliveryThankYouExploreLink:hover {background:none; background-color:#084f82;}
+#GovDeliveryThankYou a#GovDeliveryThankYouExploreLink span {background: url("/explore/govdelivery/images/cta-arrow-blue.png") no-repeat right center; display:block; padding: 1px 30px 1px 0;}
+#GovDeliveryThankYou a#GovDeliveryThankYouCloseLink {display:block;font-size:13px; font-weight:bold; text-decoration:none; color:#0B6CB2; font-family:Arial, Helvetica, Sans-Serif; margin:22px 0 37px 0; }
+
+/* jQuery UI Dialog Overrides */
+.GovDeliveryPopup {border:none !important; position:absolute; top:0; left:0; background-color:#fff; -moz-box-shadow:0 2px 44px #000;-webkit-box-shadow:0 2px 44px #000;box-shadow:0 2px 44px #000;-moz-border-radius:0 !important;-webkit-border-radius:0 !important;border-radius:0 !important;}
+.GovDeliveryPopup .ui-dialog-content {padding:0 !important; overflow:hidden !important;}
+.ui-widget-overlay {background: none !important; opacity: .70 !important; filter: Alpha(Opacity=70) !important; background-color: #000 !important;}
+.GovDeliveryPopup .ui-dialog-titlebar {display:none;}
+.GovDeliveryPopup .ui-dialog-buttonpane {display:none;}
+
+/* Popup Close Button */
+.GovDeliveryCloseButton {display:none;z-index:30000;width:32px;height:32px;background:#b42c33 url("/explore/govdelivery/images/close-x.png") center no-repeat;border:3px solid #fff;position:absolute; top:0; left:0;
+-moz-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;
+-moz-box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+-webkit-box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+}
+.GovDeliveryCloseButton:hover {background-color:#841d22;}
+.GovDeliveryCloseButton span {display:none;}
+
+/* Video Popup Close Button */
+.VideoPopupCloseButton {display:none;z-index:30000;width:32px;height:32px;background:#b42c33 url("/explore/govdelivery/images/close-x.png") center no-repeat;border:3px solid #fff;position:absolute; top:0; left:0;
+-moz-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;
+-moz-box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+-webkit-box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+box-shadow:0 2px 5px rgba(0,0,0,.4),inset 0 1px 2px rgba(0,0,0,.4);
+}
+.VideoPopupCloseButton:hover {background-color:#841d22;}
+.VideoPopupCloseButton span {display:none;}
