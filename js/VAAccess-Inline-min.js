@@ -1,0 +1,1 @@
+"function"===typeof $&&$(document).ready(function(){var a=$("div#GovDeliveryPlaceHolder");!0&&$.ajax({type:"POST",cache:!1,contentType:"application/json; charset=utf-8",url:"/explore/govdelivery2/Controller.aspx/GetSignUpForm",dataType:"json",success:function(b){b.d.error||(a.append(b.d),VAAccess.ConfigureForm(a,""))}})});

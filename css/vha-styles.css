@@ -1,0 +1,129 @@
+/*
+	File            : styles/vha-styles.css
+	Description     : Styles available for use across VHA web sites.
+*/
+/* CSS Document */
+
+/*for overall mycontent table - applies to all pages */
+
+@media print { #triad { display:none; } } 
+
+table#mycontent {width:790px; height:252px; background-color:#FFFFFF; border:0px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+table#mycontent td { vertical-align:top; }
+table#mycontent h1 { margin-top:0em; font-size: 160%; color:#000000; margin-bottom:0px;}
+table#mycontent h2 { margin-top:0em; font-size: 130%; color:#000000; margin-bottom:6px;}
+table#mycontent h3 { margin-top:0em; font-size: 100%; color:#000000; margin-bottom:6px;}
+table#mycontent p, dd { margin-bottom:12px; margin-top:0px; }
+table#mycontent ul { list-style: square; }
+
+table#triadmaintable { width:100%; }
+
+#triadmain h1 { margin-top:0em; font-size: 160%; color:#000000; margin-bottom:0px;}
+#triadmain h2 { margin-top:0em; font-size: 130%; color:#000000; margin-bottom:6px;}
+#triadmain h3 { margin-top:0em; font-size: 100%; color:#000000; margin-bottom:6px;}
+#triadmain p, dd { margin-bottom:12px; margin-top:0px; }
+#triadmain ul { list-style: square; }
+#triadmain .page-title { padding-top: 10px; font-size: 140%; margin-bottom:12px; font-weight: bold; color:#000000;}
+
+.triad-page-title { padding-top: 10px; font-size: 140%; margin-bottom:12px; font-weight: bold;}
+
+#triad-footer-area {
+	clear: both;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	vertical-align:middle;
+}
+#triad-footer-area a { text-decoration: none; margin-left: 5px; margin-right: 5px;} 
+#triad-footer-area a:hover { text-decoration: underline; }
+
+#triad-footer-address {
+	margin: 10px 0px 0px 0px;
+}
+
+#triad { float: left; width:186px; vertical-align:top; }
+
+#triad ul { list-style: none;	margin-left: 0; padding-left: 0; margin-top: 10px; margin-right:26px;}
+#triad li { line-height: 110%; margin-bottom: 10px; }
+#triad a { text-decoration: none; color:#666666; font-size: 12px; font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif; }
+#triad a:hover { text-decoration: underline; }
+
+#triadtitle { margin-top:10px; margin-bottom:-30px; display:none; }
+
+td.mycontentleft {width:590px;}
+
+#triadmain { float: left; width:790px;}
+
+td.triadgutter { width: 26px; }
+
+#title-bar {
+		height: 23px;
+		color: #000000;
+		font-size: 16px;
+		font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+		font-variant: small-caps;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-align:left;
+		background-image:url(/ts_shared/images/site-name-bar-gradient.gif);
+		background-repeat:repeat-x;
+		padding: 7px 0px 0px 5px;
+		border-bottom: 0px;
+		background-color: #f1f4fc;
+    margin:0px;
+ 	 }
+
+td.mycontentgutter { width:20px; }
+td#mycontentright { width:180px; }
+td#sitemap {width:570px;}
+
+td#mycontentright ol li { margin-left:-12px;}
+td#mycontentright ul li { margin-left:-20px;}
+td#mycontentright h3 {margin-top: .8em; margin-bottom: .8em; font-size: 100%;}
+
+table.subtables {width: 180px; }
+table.linkstables { width: 178px; border:0px; }
+table.linkstables td { color: black; vertical-align:top; line-height:120%; text-align:left; }
+
+/*this is for the home page only*/
+table.mycontentleft {width:100%; border:0px; padding:0px; }
+/*this is for the cell which contains the facility address */
+td#address { background-color:#ebf5fb; padding-bottom: 4px; border: 0px solid silver;}
+td#address p {font-size:95%; margin-top: 4px; margin-bottom: 4px; line-height:120% }
+/*this is for the telephone care cell */
+td#telephone {background-color:#e4ffd4; padding-bottom: 4px;}
+td.arrow {width:16px; padding:6px 0px 1px 0px;}
+/*this is for the I Want To quicklinks section on the home page*/
+td#iwantto { background-color:#ffeee1; text-align:center; padding-bottom: 4px; width:178px;}
+
+td#contact { background-color:#efefdd; padding-bottom: 4px; border: 0px solid silver;}
+td#contact p {font-size:95%; margin-top: 4px; margin-bottom: 4px; line-height:120% }
+
+
+/*various background colors for right table cells*/
+/* Patient Info */
+.pink {background-color: #fdeef2; }
+/* Services */
+.green {background-color: #ebf4eb; }
+/* Visitor Information */
+.blue {background-color: #ebf5fd; }
+/* About this Facility */
+.orange {background-color: #feede2; }
+/* Volunteering and Giving */
+.yellow {background-color: #fffcda; } 
+/* Careers */
+.purple {background-color: #eae5f0; } 
+/* Contact Us */
+.beige {background-color: #efefdd; } 
+/*subpages - white table cell below the table containing color */
+.rightbottom {padding-top: 10px;}
+/*grayed-out link back to current page*/
+.currentpage {color: #999999;}
+
+table.contenttable td {background:#ffffff; font-size:10pt; line-height:12pt; color:black;}
+table.contenttable th {background:#bbbbbb; font-size:10pt; line-height:12pt; color:black; text-align:center;}
+tr.subheader td {background:#dddddd; font-weight:bold; text-align:left;}
+td.phone {text-align:center;}
+tr.subheader td.returntotop{font-weight:normal; text-align:right; font-size:11px;}
+
+div#disclaimer {background: #eeeeee; text-align:center; margin-top:1.5em; padding: 8px; font-size: 11px;}
