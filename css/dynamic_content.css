@@ -1,0 +1,60 @@
+/* SLIDESHOW */
+#dc_slideshow-wrapper { padding:0px; margin:0px; width:602px; position:relative; }
+
+.dc_slide { width:600px; height:250px; position:absolute; left:0; right:0; border-left:1px solid #333333; border-right:1px solid #333333;  border-top:1px solid #333333; }
+
+.dc_slideImage-container { width:600px; margin:0px; padding:0px; text-align:center; }
+.dc_slideImage { width:600px; height:250px; margin:0; overflow:hidden; }
+
+.dc_hide { display:none; }
+
+#dc_slideNavBar { position:absolute; top:251px; left:0px; width:602px; color:#FFF; text-align:left; background-color:#333333; height:20px; }
+#dc_slideNavBar ul { list-style:none; margin:2px 0 2px 0; padding:0px; }
+#dc_slideNavBar ul li { display:inline; margin:0 5px 0 10px; padding:0px; }
+#dc_slideNavBar ul li a { text-decoration:none; background-color:#585858; font-weight:bold; font-size:12px; color:#FFF !important; margin:0px; padding:0px 4px 0px 4px; border:1px solid #808080; line-height:14px; }
+/* #dc_slideNavBar ul li a:hover {border:1px solid #FFF; text-decoration:underline;} */
+#dc_slideNavBar ul li a.selected { border:1px solid #FFF; text-decoration:underline; background-color:#333333; }
+
+#dc_slideNavBarControls { float:right; margin:2px 0 2px 0; }
+#dc_slideNavBarControls img { border:1px solid #808080; margin:0 10px 0 5px; }
+#dc_slideNavBarControls a { color:#333333 !important; text-decoration:none !important; }
+
+#dc_noscriptNavBar { text-align:center; }
+#dc_noscriptNavBar a { color:#FFFFFF !important; text-decoration:underline !important; font-size:12px; }
+
+/* BANNERS.ASP */
+#dc_banners-wrapper { margin:0 0 20px 0; font-size:12px; width:602px; }
+.dc_banner-container { width:602px; text-align:center; padding:0 0 40px 0; margin:0px; }
+.dc_banner-container img { border:1px solid #6F7DA1; margin-bottom:10px; width:600px; height:250px; overflow:hidden; }
+.dc_banner-container h2 { font-size:12px !important; padding:0px !important; margin:0px !important; }
+.dc_banner-container p { font-size:12px !important; }
+.dc_banner-container:first-child { margin-top:5px; }
+
+/* EXPAND/COLLAPSE */
+div.dc_expand { background-color: #f0f0f0; padding: 5px; width: 322px; font-size:1em; font-weight:bold; line-height:1.25em; margin:0px; color:#404040; }
+
+div.dc_expand a { display:block; text-decoration:none !important; color:#404040 !important; }
+div.dc_expand a:link, div.dc_expand a:visited { background-image:url('/ts_shared/images/exp_arrow.gif'); background-repeat:no-repeat; background-position:98% 50%; }
+div.dc_expand a:active { text-decoration:none; }
+div.dc_expand a:hover { color:#1a49a0 !important; }
+div.dc_expand a.open:link, div.dc_expand a.open:visited { background-image:url('/ts_shared/images/col_arrow.gif'); background-position:98% 50%; }
+
+div.dc_collapse p { padding: 5px !important; background-color: #ffffff; }
+
+/* SHARE DROP DOWN */
+#dc_ShareNav a { font-weight:bold; color:#1e2d54; }
+#dc_ShareNav a { text-decoration:none; }
+#dc_ShareNav li li a { display:block; font-weight:normal; color:black; padding:0.2em 10px; text-decoration: none; font-size: 100%; }
+#dc_ShareNav li li a:hover { padding:0.2em 5px; border:1px solid black; border-width:0 5px; }
+#dc_ShareNav img { width:16px; height:16px; border:0px; }
+#dc_ShareNav img.share_widget { width:60px; height:10px; }
+
+#dc_drop_down_links ul { list-style:none; padding:0px; margin:0px; }
+#dc_drop_down_links li { float:left; position:relative; width:10em; text-align:left; cursor:default; background-color:white; border:1px solid #404040; border-width:1px 0px; }
+#dc_drop_down_links li#first { border-left-width:1em; }
+#dc_drop_down_links li#last { border-right-width:1em; }
+#dc_drop_down_links li#one { border-right-width:2px; border-left-width:2px; list-style:none; }
+#dc_drop_down_links li ul { display:none; position:absolute; top:100%; left:0px; font-weight:normal; background: url(/ts_shared/images/share/drop_bg.gif) bottom left no-repeat; padding:0.5em 0 1em 0; border-right:solid 1px black; }
+#dc_drop_down_links li>ul { top:auto; left:auto; }
+#dc_drop_down_links li li { display:block; float:none; background-color:transparent; border:0px; }
+#dc_drop_down_links li:hover ul, #dc_drop_down_links li.over ul { display:block; }
